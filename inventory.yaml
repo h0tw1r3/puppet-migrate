@@ -1,0 +1,9 @@
+targets:
+  _plugin: puppetdb
+  query: "inventory[certname] { facts.osfamily = 'RedHat' }"
+
+config:
+  ssh:
+    host-key-check: false
+    run-as: root
+    sudo-executable: sudo

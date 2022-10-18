@@ -1,0 +1,8 @@
+---
+analytics: false
+concurrency: 5
+puppetdb:
+  server_urls:
+    - https://puppet:8081
+  cacert: "ca.pem"
+  token: "~/.puppetlabs/token"
